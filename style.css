@@ -1,0 +1,122 @@
+body{
+    font-family: Arial;
+    margin:0;
+    background-color: rgb(230, 230, 230);
+} 
+
+.cabecera{
+    background-image:url("imagenes/header.jpg");
+    background-size:100% 200px;
+    height:200px;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding-top:50px;
+    font-size: 22px;
+}
+
+.menu{
+    padding:10px;
+    text-align:center;
+}
+
+.menutexto{
+    color:rgb(0, 0, 0);
+    margin:20px;
+    padding:8px;
+}
+
+.menu a:hover{
+    background:gray;
+    border-radius: 10px;
+}
+
+/* Primera caja*/
+section{
+    background: white;
+    padding: 15px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* FLOAT */
+
+.contenedor-float{
+    overflow:hidden;/* Sirve para limpiar los floats y que el contenedor se ajuste a su contenido */
+    margin: 12px;
+}
+
+.caja-localizacion, .caja-instalaciones{ /*Sirva para no copiar lo mismo dos veces*/
+    float:left;
+    width:40%;
+    margin:20px;
+    padding:14px;
+    border:2px solid black;
+    border-radius:10px;
+}
+
+
+/* Parte de servicios*/
+.servicios-flex{
+    display:flex;
+    margin:12px;
+}
+
+.producto{
+    flex:1;/* Sirve para el espaciado de las cajs */
+    margin:20px;
+    padding:14px;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
+.imagen-producto{
+    position:relative;
+}
+
+.descuento{
+    position:absolute;
+    bottom:10px;
+    left:55px;
+    background:red;
+    color:white;
+    padding:5px;
+    font-size: small;
+}
+
+.imagen-fija{
+    position:fixed;/* Hace que la imagen se quede fija en la pantalla aunque se haga scroll */
+    bottom:10px;
+    right:10px;
+    width:80px;
+    opacity: 0.9;
+    border-radius: 12px;
+}
+
+/* Toda la parte relacionada con el horario */
+#titulo-horario{
+    color:green;
+    font-size: 20px;
+    text-align: center;
+}
+.horario{
+    margin-left:30px;
+    margin-right:20px;
+    padding:10px;
+    text-align: center;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background: rgb(80, 80, 80);
+    color: white;
+    text-align: center;
+	padding: 12px; 
+}
+h6-footer{
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 1px;
+}
