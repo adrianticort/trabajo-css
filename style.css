@@ -5,7 +5,7 @@ body{
 } 
 
 .cabecera{
-    background-image:url("imagenes/header.jpg");
+    background-image:url("header.jpg");
     background-size:100% 200px;
     height:200px;
     color:rgb(255, 255, 255);
@@ -39,6 +39,12 @@ section{
     border-radius: 5px;
 }
 
+.textoComun{
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: justify;
+    font-family: cursive;
+}
 
 /* FLOAT */
 
